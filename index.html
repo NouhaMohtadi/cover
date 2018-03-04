@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
+  <title>Final</title>
+</head>
+
+<body>
+
+<!-- navigation bar -->
+  <div class="mynavbar">
+    <img class="logo" src="media/logo.png" alt="logo">
+    <div class="d-none d-md-block shift">
+      <div class="navbar-links">
+        <div>
+          <a href="#">Home</a>
+          <a href="#menu-scroll">Menu</a>
+          <a href="#footer-scroll">Find Us</a>
+          <a href="#footer-scroll">Contact</a>
+        </div>
+        <div class="dropdown show">
+          <img class="navbar-avatar dropdown-toggle" src="media/quentin.jpg" alt="profile picture" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="dropdown-menu dropdown-menu-right drop" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">My profile</a>
+            <a class="dropdown-item" href="#">Settings</a>
+            <a class="dropdown-item" href="#">We are hiring</a>
+          </div>
+        </div>
+      </div>
+     </div>
+
+    <div class="dropdown show d-md-none shift">
+      <i class="fas fa-bars fa-2x hamburger" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">Home</a>
+        <a class="dropdown-item" href="#">Menu</a>
+        <a class="dropdown-item" href="#">Find us</a>
+        <a class="dropdown-item" href="#">Contact</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">My profile</a>
+        <a class="dropdown-item" href="#">Settings</a>
+        <a class="dropdown-item" href="#">We are hiring</a>
+      </div>
+    </div>
+  </div>
+
+<!-- video banner -->
+  <div class="video-container">
+	   <video autoplay loop muted>
+		     <source src="media/food.mp4" type="video/mp4">
+		     Your browser does not support the video tag.
+	   </video>
+     <div class="overlay-desc">
+        <h1>LOREM IPSUM</h1>
+        <a href="#menu" class="btn btn-danger button-scroll">Take me to the menu</a>
+     </div>
+	</div>
+
+<!-- Ask a question Modal -->
+  <i data-toggle="modal" data-target="#exampleModalLong" id="question" class="fas fa-2x fa-question-circle"></i>
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document"></div>
+    <div id="live-chat">
+      <header class="chat-header">
+        <h4>Help Chat box</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </header>
+
+      <div class="chat">
+        <div class="chat-history">
+
+          <div class="chat-message">
+            <div class="chat-message-content">
+              <h4>Nouha</h4>
+              <p>Hello, what is your question? :) </p>
+            </div>
+          </div>
+        </div>
+
+        <form action="#" method="post">
+          <fieldset>
+          <input type="text" placeholder="Type your message…" autofocus>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="smooth-scroll.js"></script>
+
+</body>
+</html>
