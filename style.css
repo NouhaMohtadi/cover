@@ -254,9 +254,23 @@ p { margin: 0; } */
 	font-size: 10px;
 }
 
+
 .enter-message {
   display: flex;
   justify-content: space-between;
+}
+
+.enter-message a {
+  margin-bottom:2px;
+  margin-right:2px;
+  height: 30px
+}
+
+.enter-message input {
+  margin-bottom: 2px;
+  margin-left: 2px;
+  height: 30px;
+  margin-right: 5px;
 }
 #live-chat form {
 	padding: 5px;
