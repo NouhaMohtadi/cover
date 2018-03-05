@@ -14,16 +14,15 @@
 <body>
 
 <!-- navigation bar -->
-<div class="mynavbar">
-  
-  <img class="logo" src="http://logok.org/wp-content/uploads/2014/11/Sony-Music-logo.png" alt="logo">
+<div class="mynavbar" id="CoverSection">
+
+  <img class="logo" src="media/logo.png" alt="logo">
 
   <div class="d-none d-md-block shift">
     <div class="navbar-links">
       <div>
-        <a href="#">Home</a>
-        <a href="#menu-scroll">Menu</a>
-        <a href="#footer-scroll">Find Us</a>
+        <a href="#menu-scroll">Services</a>
+        <a href="#menu-scroll">Team</a>
         <a href="#footer-scroll">Contact</a>
       </div>
     </div>
@@ -33,8 +32,8 @@
     <div class="navbar-links">
       <div class="dropdown show">
         <img class="navbar-avatar dropdown-toggle" src="media/quentin.jpg" alt="profile picture" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <div class="dropdown-menu dropdown-menu-right drop" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#">My profile</a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Profile</a>
           <a class="dropdown-item" href="#">Settings</a>
           <a class="dropdown-item" href="#">We are hiring</a>
         </div>
@@ -43,14 +42,13 @@
   </div>
 
   <div class="dropdown show d-md-none shift">
-  <i class="fas fa-bars fa-2x hamburger" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+  <i class="fas fa-bars fa-3x hamburger" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="#">Home</a>
-      <a class="dropdown-item" href="#">Menu</a>
-      <a class="dropdown-item" href="#">Find us</a>
+      <a class="dropdown-item" href="#">Services</a>
+      <a class="dropdown-item" href="#">Team</a>
       <a class="dropdown-item" href="#">Contact</a>
       <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">My profile</a>
+      <a class="dropdown-item" href="#">Profile</a>
       <a class="dropdown-item" href="#">Settings</a>
       <a class="dropdown-item" href="#">We are hiring</a>
     </div>
@@ -64,14 +62,18 @@
 		     <source src="media/jump.mp4" type="video/mp4">
 		     Your browser does not support the video tag.
 	   </video>
-     <div class="overlay-desc">
-        <h1>LOREM IPSUM</h1>
-        <a href="#menu" class="btn btn-danger button-scroll">Take me to the menu</a>
+     <div class="video-info">
+       <div class="overlay-desc">
+          <h1>JUMP</h1>
+          <h2>you will go home with a story</h2>
+          <a href="#menu" class="btn btn-danger button-scroll">See experiences</a>
+       </div>
      </div>
+
 	</div>
 
 <!-- Ask a question Modal -->
-  <i data-toggle="modal" data-target="#exampleModalLong" id="question" class="fas fa-2x fa-comments"></i>
+  <i data-toggle="modal" data-target="#exampleModalLong" class="fas fa-2x fa-comments" id="question"></i>
   <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog" role="document"></div>
     <div id="live-chat">
@@ -95,10 +97,17 @@
 
         <div class="enter-message">
       <input type="text" placeholder="Enter your message.."/>
-      <a href="#" class="btn btn-primary">Send</a>
     </div>
       </div>
     </div>
+  </div>
+  <!-- home icon-->
+  <a href="#CoverSection">
+    <i class="fas fa-2x fa-home"id="home" ></i>
+  </a>
+
+  <div class="ServicesSection">
+    <p>lorem ipsumss</p>
   </div>
 
   <!-- Scripts -->
