@@ -254,6 +254,10 @@ p { margin: 0; } */
 	font-size: 10px;
 }
 
+.enter-message {
+  display: flex;
+  justify-content: space-between;
+}
 #live-chat form {
 	padding: 5px;
 }
