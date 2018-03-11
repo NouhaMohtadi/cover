@@ -398,10 +398,10 @@ video {
   width:100%;
 }
 
-.sub-btn {
- margin-bottom: 30px;
+.newsletter {
+  position: relative;
+  top: -40px;
 }
-
 
 .button {
 	border:none;
