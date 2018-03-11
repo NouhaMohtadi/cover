@@ -14,7 +14,7 @@
 <body>
 
 <!-- navigation bar -->
-<div class="mynavbar" id="CoverSection">
+<div class="mynavbar" id="first-section">
 
   <img class="logo" src="media/logo.png" alt="logo">
 
@@ -22,8 +22,8 @@
     <div class="navbar-links">
       <div>
         <a href="#menu-scroll">Services</a>
-        <a href="#menu-scroll">Team</a>
-        <a href="#footer-scroll">Contact</a>
+        <a href="#scroll-map">Find us</a>
+        <a href="#footer-scroll">Team</a>
       </div>
     </div>
   </div>
@@ -64,9 +64,9 @@
 	   </video>
      <div class="video-info">
        <div class="overlay-desc">
-          <h1>JUMP</h1>
+          <h1>Falln'</h1>
           <h2>you will go home with a story</h2>
-          <a href="#menu" class="btn btn-danger button-scroll">See experiences</a>
+          <a href="#menu" class="btn-cover btn btn-danger button-scroll">See experiences</a>
        </div>
      </div>
 
@@ -102,13 +102,70 @@
     </div>
   </div>
   <!-- home icon-->
-  <a href="#CoverSection">
+  <a href="#first-section">
     <i class="fas fa-2x fa-home"id="home" ></i>
   </a>
 
   <div class="ServicesSection">
     <p>lorem ipsumss</p>
+
   </div>
+  <!-- Newsletter -->
+      <div class="thumbnail center well well-sm text-center">
+        <h2>Newsletter</h2>
+        <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+
+    <!-- Button trigger modal Subscribe -->
+          <button type="button" class="sub-btn btn btn-danger button" data-toggle="modal" data-target="#exampleModal">
+            Subscribe
+          </button>
+
+    <!-- Modal Subscribe-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <h4> Fill in this form </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body">
+                <div class="typeform-widget" data-url="https://nouhamohtadi.typeform.com/to/KO0FK5" style="width: 100%; height: 500px;"></div>
+                <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=KO0FK5&utm_source=typeform.com-11871855-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- google maps -->
+      <iframe id="scroll-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.2356885900113!2d-0.6041365850280287!3d44.79638518577553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d89e19d80d95%3A0xc1e472976a9f5f93!2s680+Cours+de+la+Lib%C3%A9ration%2C+33400+Talence!5e0!3m2!1sfr!2sfr!4v1520694599795" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+      <div class="Scroll" id="Footer">
+        <p>Join us on social media:</p>
+
+  <!-- social media links -->
+        <div class="socials">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="Sbtn yt fab fa-youtube"></i>
+          </a>
+          <a href="https://www.youtube.com" target="_blank">
+            <i class="Sbtn fb fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="tw Sbtn fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank">
+            <i class="Sbtn ld fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
 
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
