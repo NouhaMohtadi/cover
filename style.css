@@ -8,7 +8,7 @@ a {
 }
 
 .mynavbar {
-  height: 100px;
+  height: 80px;
   box-shadow: 0px 0px 20px white;
   width: 100%;
   display: flex;
@@ -20,15 +20,15 @@ a {
 
 .logo {
   margin-left: 20px;
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .navbar-avatar {
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -293,16 +293,6 @@ video {
   margin-right: 10px;
 }
 
-/* clément */
-
-/* .ServicesSection {
-  display: flex;
-  position: relative;
-  height:1000px;
-  background-color: grey;
-  top:-100px;
-} C'est ce que tu as avais de base */
-
 .ServicesSection {
   display: flex;
   position: relative;
@@ -310,7 +300,7 @@ video {
   height: 100%;
   width: 100%;
   background-color: rgb(247, 247, 247);
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -320,24 +310,36 @@ video {
   padding-top: 60px;
 }
 
+.Services h1 {
+  color:white;
+}
+
+.Services h2 {
+  color:white;
+}
+
 .card-middle {
   border-radius: 5px;
   border-color: #D0021B;
-  height: auto;
+  height: 500px;
   padding: 17px;
   margin: 20px 20px;
   background-color: white;
-  text-align: justify;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.card-middle h4 p {
-  padding: 10px;
+
+.card-middle h5 {
+  text-align: center;
+  font-weight: bold;
+  color:red;
+  font-size:25px;
 }
+
 .card-middle:hover {
-  box-shadow: 1px 15px 10px -3px rgb(220, 220, 220);
+  box-shadow: 1px 2px 10px -3px rgb(220, 220, 220);
 }
 
 .img-wrap {
@@ -382,6 +384,10 @@ video {
   text-shadow: 2px 2px 10px black;
 }
 
+.Book-btn {
+  width: 80px;
+}
+
 .video-info {
   position: absolute;
   top: 0;
@@ -421,6 +427,10 @@ video {
   color: white;
   height:200px;
   text-align: center;
+}
+
+.sub-btn {
+  width: 300px;
 }
 
 .socials {
@@ -490,3 +500,14 @@ video {
   background: #fff;
   border-color: #3076B0;
 }
+
+
+
+.bg-img {
+  height: 100vh;
+   background: #282537;
+   background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+   background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+   background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+   background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  }
