@@ -311,7 +311,7 @@ video {
   display: flex;
   height:50%;
   width: 100%;
-  background-color: white;
+  background-color: rgb(247, 247, 247);
   justify-content: center;
   flex-wrap: wrap;
   margin: 0px 0px;
@@ -328,7 +328,7 @@ video {
   height: auto;
   padding: 17px;
   margin: 20px 20px;
-  background-color: rgb(247, 247, 247);
+  background-color: white;
   text-align: justify;
   display: flex;
   justify-content: center;
