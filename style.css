@@ -293,16 +293,90 @@ video {
   margin-right: 10px;
 }
 
+/* clément */
 
-
-.ServicesSection {
+/* .ServicesSection {
   display: flex;
   position: relative;
   height:1000px;
   background-color: grey;
   top:-100px;
+} C'est ce que tu as avais de base */
+
+.ServicesSection {
+  display: flex;
+  height:50%;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px 0px;
+
+}
+.ServicesSection h1 {
+  text-align: center;
+  padding-top: 40px;
 }
 
+.card-middle {
+  border-radius: 5px;
+  border-color: #D0021B;
+  height: auto;
+  padding: 17px;
+  margin: 20px 20px;
+  background-color: rgb(247, 247, 247);
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-middle h4 p {
+  padding: 10px;
+}
+.card-middle:hover {
+  box-shadow: 1px 15px 10px -3px rgb(220, 220, 220);
+}
+
+.img-wrap {
+  position: relative;
+}
+
+.img-feature {
+  border-radius: 2px;
+}
+
+.img-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  background-color: rgba(210, 210, 210, 0.5);
+  text-decoration: none;
+  color: #FFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  border: 1px solid #D0021B;
+  border-radius: 2px;
+}
+
+.img-wrap:hover .img-btn {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(210, 210, 210, 0.5);
+  text-decoration: none;
+  color: #FFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  border: 1px solid #D0021B;
+}
 
 .video-info {
   position: absolute;
