@@ -176,7 +176,6 @@ video {
   color: white;
 }
 
-
 #question {
   position:absolute;
   position: fixed;
@@ -274,7 +273,6 @@ video {
 	width: 234px;
 }
 
-
 .chat {
 	background: #fff;
 }
@@ -329,7 +327,6 @@ video {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 
 .card-middle h5 {
   text-align: center;
@@ -500,8 +497,6 @@ video {
   background: #fff;
   border-color: #3076B0;
 }
-
-
 
 .bg-img {
   height: 100vh;
